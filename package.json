@@ -1,0 +1,33 @@
+{
+  "name": "@yjk0510/utils",
+  "version": "1.0.0",
+  "description": "常用工具包",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjk0510/utils.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "author": "1259559060@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjk0510/utils/issues"
+  },
+  "homepage": "https://github.com/yjk0510/utils#readme",
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
