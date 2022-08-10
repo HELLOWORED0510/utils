@@ -2,18 +2,24 @@
  * 等待元素加载完成
  *
  */
-export const wait = (selector: string, delay?: number): Promise<Element> => {
+export const waitFor = (selector: string): Promise<Element> => {
   return new Promise((resolve) => {
     const ele = document.querySelector(selector)
+    
     if (ele) {
       resolve(ele)
     } else {
-      setInterval(() => {
+      const observer = new MutationObserver(() => {
         const ele = document.querySelector(selector)
         if (ele) {
           resolve(ele)
+          observer.disconnect()
         }
-      }, delay || 100)
+      })
+      observer.observe(document.body, {
+        subtree: true,
+        childList: true,
+      })
     }
   })
 }

@@ -8,5 +8,11 @@
     "allowJs": true,
     "moduleResolution": "node"
   },
+  "ts-node": {
+    "moduleTypes": {
+      "jest.config.ts": "cjs"
+    },
+    "transpileOnly": true
+  },
   "files": ["src/index.ts"]
 }
