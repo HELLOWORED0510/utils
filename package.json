@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/yjk0510/utils.git"
   },
+  "files": ["dist"],
   "keywords": [
     "util"
   ],
