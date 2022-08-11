@@ -2,12 +2,11 @@
   "name": "@yjk0510/utils",
   "version": "1.0.0",
   "description": "常用工具包",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "jest --watch --coverage",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch"
   },
   "repository": {

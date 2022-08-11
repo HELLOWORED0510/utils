@@ -1,2 +1,2 @@
 import * as Dom from './dom'
-export { Dom }
+export default { Dom }
