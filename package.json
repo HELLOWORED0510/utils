@@ -1,6 +1,6 @@
 {
   "name": "@yjk0510/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "常用工具包",
   "main": "dist/main.js",
   "scripts": {
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/yjk0510/utils.git"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "util"
   ],
