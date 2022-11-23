@@ -4,7 +4,7 @@
   "description": "常用工具包",
   "main": "dist/main.js",
   "scripts": {
-    "test": "jest --watch --coverage",
+    "test": "jest --watch -o  ",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "watch": "webpack --watch"
@@ -29,9 +29,9 @@
     "@babel/preset-env": "^7.18.10",
     "@types/jest": "^28.1.6",
     "@webpack-cli/generators": "^2.5.0",
-    "jest": "26",
+    "jest": "^29.3.1",
     "jest-environment-jsdom": "26",
-    "ts-jest": "26",
+    "ts-jest": "^29.0.3",
     "ts-loader": "^9.3.1",
     "typescript": "^4.7.4",
     "webpack": "^5.74.0",

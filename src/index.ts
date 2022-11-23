@@ -1,2 +1,3 @@
 import * as Dom from './dom'
-export default { Dom }
+import * as math from './math'
+export { Dom, math }
